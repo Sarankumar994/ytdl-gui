@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ytdl-gui"
+version = "0.1.0"
+description = "GUI for downloading videos from internet using yt-dlp."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ytdl_gui"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
